@@ -1,17 +1,17 @@
 #include <iostream>
 
-// complete function args below
-void print()
+
+void print(int* const ptr, const int N)
 {
+
    for(int i = 0; i < N; i++)
      std::cout << "ptr[" << i <<  "] = " << ptr[i] << std::endl;
 }
 
 int main(int argc, char *argv[])
 {
-   // print all items stored in argv
-   for (int i = 0; i < argc; ++i)
-        std::cout << "Argument " << i << ": " << argv[i] << std::endl;
+   for (int i = 0; i < argc; i++)
+        // print all items stored in argv
 
    if(argc > 1)
    {
@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
 
       print(ptr, N);
 
-      // free memory allocated by ptr
+      // free memory allocated for ptr
    }
 
    return 0;
