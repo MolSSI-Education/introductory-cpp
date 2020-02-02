@@ -31,7 +31,7 @@ int main()
     std::cout << "Size after shrink_to_fit: " << veci.size() << std::endl;
 
     std::cout << "Vector elements are: ";
-    for (auto it = veci.begin(); it != veci.end(); it++)
+    for (std::vector<int>::iterator it = veci.begin(); it != veci.end(); it++)
         std::cout << *it << " ";
 
     std::cout << std::endl;
