@@ -1,9 +1,8 @@
 #include <iostream>
 
-
-void print(int* const ptr, const int N)
+// fill in function args for print()
+void print()
 {
-
    for(int i = 0; i < N; i++)
      std::cout << "ptr[" << i <<  "] = " << ptr[i] << std::endl;
 }
