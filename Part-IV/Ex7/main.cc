@@ -1,15 +1,7 @@
 #include <vector>
 #include "my_tuple.h"
 
-auto make_records(std::vector<std::string> names, std::vector<bool> states, std::vector<int> scores)
-{
-   std::vector<std::tuple<std::string, bool, int>> records_vec;
-
-   for(int i = 0; i < names.size(); i++)
-       records_vec.push_back(std::make_tuple(names[i], states[i], scores[i]));
-
-   return records_vec;
-}
+auto make_records() {};
 
 void print_records(std::vector<std::tuple<std::string, bool, int>> records)
 {
