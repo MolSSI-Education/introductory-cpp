@@ -5,7 +5,7 @@ unsigned long int factorial(unsigned int n) {};
 
 int main()
 {
-    unsigned int n;
+    unsigned long int n;
 
     std::cout << "Enter a positive integer: ";
     std::cin >> n;
