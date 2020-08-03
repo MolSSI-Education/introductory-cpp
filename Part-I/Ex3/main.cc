@@ -3,8 +3,7 @@
 
 int main()
 {
-    int weight;
-    float height;
+    // Declare variables here
 
     std::cout << "Enter your weight in Kgs: ";
     std::cin >> weight;
