@@ -9,7 +9,7 @@ int main()
     std::cin >> weight;
 
     std::cout << "Enter your height in meters: ";
-    std::cin >> height;
+    // Read height as std input
 
     std::cout << "Your BMI (body mass index) is: " << weight / pow(height, 2) << std::endl;
 
